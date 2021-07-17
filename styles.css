@@ -19,7 +19,10 @@ h1 {
   align-items: center;
   max-width: 100vw;
   z-index: 1;
+<<<<<<< HEAD
   position: static;
+=======
+>>>>>>> 23331e49a8e860edb1eec872318a02afe891e586
 }
 
 .DW-lottiAnimation {
