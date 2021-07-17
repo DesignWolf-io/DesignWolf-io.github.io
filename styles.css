@@ -25,6 +25,7 @@ h1 {
   width: 99vw;
   height: 99vh;
   overflow: hidden;
+  z-index: -1;
 }
 
 .DW-logo img {
