@@ -7,6 +7,12 @@ body {
   color: white;
 }
 
+h1 {
+  color: #129eb6;
+  font-size: 3rem;
+  text-shadow: 0px 0.04em 0 #de42b6;
+}
+
 .DW-introHeader {
   display: flex;
   flex-direction: column;
