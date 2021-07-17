@@ -1,5 +1,19 @@
-.Dw-introHeader {
+img {
+  max-width: 100vw;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.DW-introHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 100vw;
+}
+
+.DW-logo img {
+  width: 60vw;
 }
