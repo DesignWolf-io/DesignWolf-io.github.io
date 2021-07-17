@@ -18,6 +18,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   max-width: 100vw;
+  z-index: 1;
+  position: static;
 }
 
 .DW-lottiAnimation {
