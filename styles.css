@@ -14,6 +14,47 @@ h1 {
   text-shadow: 0px 0.04em 0 #de42b6;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+/* Underline styles */
+a {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+  color: #71d2b3;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Fade in */
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #de42b6;
+  opacity: 0;
+  transition: opacity 400ms, transform 500ms;
+}
+
+a:hover::after,
+a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+.pageLink {
+  font-size: 2rem;
+  text-shadow: 0px 0.04em 0 #de42b6;
+}
+
 .DW-introHeader {
   display: flex;
   flex-direction: column;
@@ -30,15 +71,33 @@ h1 {
 
 .DW-lottiAnimation {
   position: absolute;
-  padding-top: 30vh;
+  padding-top: 25vw;
   width: 100vw;
-  height: 200vh;
+  height: 150vh;
   z-index: -1;
   opacity: 70%;
 }
 
 .DW-logo img {
   width: 60vw;
+}
+
+.navBarContainer {
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.navBarInner {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 600px) {
@@ -52,7 +111,11 @@ h1 {
 
   .DW-lottiAnimation {
     width: 350vw;
-    height: 100vh;
-    padding-top: 0vh;
+    height: 90vh;
+    padding-top: 10vh;
+  }
+
+  .pageLink {
+    font-size: 1.5rem;
   }
 }
