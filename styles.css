@@ -16,10 +16,13 @@ h1 {
 .DW-introHeader {
   display: flex;
   flex-direction: column;
-  align-items: center;
   max-width: 100vw;
+  height: 80vh;
   z-index: 1;
   position: static;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .DW-lottiAnimation {
@@ -32,4 +35,18 @@ h1 {
 
 .DW-logo img {
   width: 60vw;
+}
+
+@media screen and (max-width: 600px) {
+  .DW-logo img {
+    width: 90vw;
+  }
+
+  .DW-lottiAnimation {
+    width: 350vw;
+    height: 100vh;
+    padding-top: 20vh;
+    opacity: 20%;
+    overflow: hidden;
+  }
 }
