@@ -1,18 +1,39 @@
 # DesignWolf-io.github.io
 
 ## Website Portfollio built for GitHub Pages
->Current Status - Still being developed
+
 ---
 
-**Built with**
+## Table of Contents
+- [DesignWolf-io.github.io](#designwolf-iogithubio)
+  - [Website Portfollio built for GitHub Pages](#website-portfollio-built-for-github-pages)
+  - [Table of Contents](#table-of-contents)
+  - [Status](#status)
+  - [Technologies Used](#technologies-used)
+  - [Who am I?](#who-am-i)
+  - [Todo list](#todo-list)
+
+---
+
+## Status
+>Still being developed
+
+---
+
+## Technologies Used
 - HTML
 - CSS
 - Javascript
 
 ---
 
-**Here is my logo** *Tim McGee -> alias name Design Wolf*
+## Who am I?
+ *Tim McGee -> alias name Design Wolf*
 
+
+> MrDesignWolf@Gmail.com
+
+&nbsp;
 
 ![Design Wolf Logo](Full%20Logo@3x.png)
 
