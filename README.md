@@ -46,9 +46,9 @@ Portfollio Website -> https://designwolf-io.github.io
 - [X] Get logo into Website
 - [X] Make mobile friendly
 - [x] Add Lotti Animation
-- [ ] Create Nav Section
+- [x] Create Nav Section
 - [ ] Make Lotti have a reason behind it "click, movement, etc.."
-- [ ] Create "Current Page" Nav Animation/Design
+- [x] Create "Current Page" Nav Animation/Design
 - [ ] Make Wolf Design in the world WOLF 3D
 - [ ] Make Scroll animation that 3D asset will spin upon user scroll
 - [ ] Make entire page Sticky "I am going for a 1 view Hero look on the Homepage with a spinning animation as the reason to scroll"
