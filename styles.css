@@ -106,15 +106,15 @@ a:focus::after {
 }
 
 .DW-404lotti {
-  position: static;
-  padding-bottom: 60vh;
+  position: absolute;
+  padding-bottom: 0vh;
   width: 150vw;
   z-index: 1;
   opacity: 100%;
 }
 
 .DW-errorHeading {
-  position: fixed;
+  position: absolute;
   padding-top: 60vh;
 }
 
