@@ -47,6 +47,7 @@ Portfollio Website -> https://designwolf-io.github.io
 - [X] Make mobile friendly
 - [x] Add Lotti Animation
 - [x] Create Nav Section
+- [X] Make 404 Page
 - [ ] Make Lotti have a reason behind it "click, movement, etc.."
 - [x] Create "Current Page" Nav Animation/Design
 - [ ] Make Wolf Design in the world WOLF 3D
