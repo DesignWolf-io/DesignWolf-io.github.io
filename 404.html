@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="script.js"></script>
+    <title>DesignWolf GitHub Site</title>
+  </head>
+  <body>
+    <section>
+      <div class="navBarContainer">
+        <div class="navBarInner">
+          <li class="pageLink">
+            <ul class="Home">
+              <a href="index.html" onload="script">Home</a>
+            </ul>
+          </li>
+          <li class="pageLink">
+            <ul class="Portfollio" onload="script">
+              <a href="portfollio.html">Portfollio</a>
+            </ul>
+          </li>
+          <li class="pageLink">
+            <ul class="Contact" onload="script">
+              <a href="contact.html">Contact</a>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="DW-introHeader">
+        <h1 class="DW-errorHeading">404 Error! Cannot find that page.<br>Try one of the links above!</h1>
+        <lottie-player
+          class="DW-lottiAnimation DW-404lotti"
+          src="./Teardrop404Lotti.json"
+          background="transparent"
+          speed="0.25"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </section>
+  </body>
+</html>

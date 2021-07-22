@@ -101,8 +101,22 @@ a:focus::after {
 }
 
 .current-Link {
-  animation: pulsate 2s ease-out;
+  animation: pulsate 8.1s ease-out;
   animation-iteration-count: infinite;
+}
+
+.DW-404lotti {
+  position: static;
+  padding-bottom: 50vh;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  opacity: 100%;
+}
+
+.DW-errorHeading{
+  position: static;
+  
 }
 
 @keyframes pulsate {
