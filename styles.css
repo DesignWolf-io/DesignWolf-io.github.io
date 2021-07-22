@@ -107,16 +107,15 @@ a:focus::after {
 
 .DW-404lotti {
   position: static;
-  padding-bottom: 50vh;
-  width: 100vw;
-  height: auto;
+  padding-bottom: 60vh;
+  width: 150vw;
   z-index: 1;
   opacity: 100%;
 }
 
-.DW-errorHeading{
-  position: static;
-  
+.DW-errorHeading {
+  position: fixed;
+  padding-top: 60vh;
 }
 
 @keyframes pulsate {
@@ -153,5 +152,9 @@ a:focus::after {
 
   .pageLink {
     font-size: 1.5rem;
+  }
+
+  .DW-404lotti {
+    padding-bottom: 50vh;
   }
 }
