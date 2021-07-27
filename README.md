@@ -58,4 +58,5 @@ Portfollio Website -> https://designwolf-io.github.io
 - [ ] Create Form in Contact Page
 - [ ] Go through entire site for accessability
 - [ ] Review site for active keywords
+- [ ] Create Basic Pricing Page
 - [ ] Make something amazing 💣💣
